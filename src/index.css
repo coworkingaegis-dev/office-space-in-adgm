@@ -1,0 +1,49 @@
+@import '@fontsource/instrument-serif/400.css';
+@import '@fontsource/instrument-serif/400-italic.css';
+@import '@fontsource-variable/manrope';
+
+:root {
+  /* Light palette: architect's paper, pale sage and sky, Aegis green ink */
+  --paper: #fafbf8;
+  --white: #ffffff;
+  --mist: #edf3f0;     /* pale sage */
+  --sky: #e5eff3;      /* pale blue */
+  --sand: #f5efe4;     /* warm paper */
+  --ink: #142e28;
+  --muted: #4f5f59;
+  --line: #d7e1dc;
+  --green: #1f5c46;    /* Aegis brand green */
+  --green-dark: #174a38;
+  --teal: #3a8a9b;     /* floor-plan highlight */
+  --teal-soft: rgba(58, 138, 155, .14);
+  --amber: #8a5a1c;    /* small text accents, AA on light */
+
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'Manrope Variable', 'Manrope', 'Segoe UI', system-ui, sans-serif;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --hd-h: 72px;
+  --gutter: clamp(20px, 4vw, 44px);
+  --r-lg: 22px;
+  --r-md: 14px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--hd-h) + 16px); -webkit-text-size-adjust: 100%; }
+html, body { width: 100%; overflow-x: clip; }
+html.menu-locked { overflow: hidden; }
+body { font-family: var(--sans); font-size: 1.0625rem; line-height: 1.65; color: var(--ink); background: var(--paper); -webkit-font-smoothing: antialiased; }
+h1, h2 { font-family: var(--serif); font-weight: 400; line-height: 1.05; letter-spacing: -0.01em; }
+h3 { font-family: var(--sans); font-weight: 700; line-height: 1.3; }
+img, svg { display: block; max-width: 100%; }
+img { height: auto; }
+a { color: inherit; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+ul, ol { list-style: none; }
+address { font-style: normal; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; border-radius: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
