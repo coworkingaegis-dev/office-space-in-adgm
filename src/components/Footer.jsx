@@ -49,7 +49,7 @@ function Footer() {
         <div className="ft-col">
           <h2>Visit us</h2>
           <address>
-            <p>{BUSINESS.street},<br />{BUSINESS.city}, {BUSINESS.country}</p>
+            <p>{BUSINESS.street},{BUSINESS.city}, {BUSINESS.country}</p>
             <p><a href={BUSINESS.phoneTel}>{BUSINESS.phoneDisplay}</a></p>
             <p><a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a></p>
           </address>
