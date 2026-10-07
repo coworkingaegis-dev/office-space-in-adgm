@@ -16,9 +16,9 @@ import boardroomImg from '../assets/office-space-adgm-boardroom-view.webp'
 
 export const SITE_URL = 'https://officespaceinadgm.com'
 export const MAIN_SITE = 'https://www.aegiscoworking.ae'
-export const PAGE_TITLE = 'Office Space in ADGM for Rent from AED 1,000/month | Aegis'
+export const PAGE_TITLE = 'Office Space in ADGM: Serviced vs Traditional Lease Costs'
 export const PAGE_DESCRIPTION =
-  'Office space in ADGM at Addax Tower, Al Reem Island. Serviced, fully furnished office, flexi desk from AED 1,000 and an ADGM business address. Book a tour.'
+  'Office space in ADGM compared: a serviced office at Addax Tower vs a traditional ADGM lease — fit-out, deposit, utilities and monthly cost, from AED 1,000.'
 export const DATE_PUBLISHED = '2026-10-06'
 export const DATE_MODIFIED = '2026-10-06'
 
@@ -41,6 +41,9 @@ export const BUSINESS = {
     'https://www.facebook.com/aegis.coworking',
   ],
 }
+
+// Card links open WhatsApp instead of other websites
+export const WA_INFO = `${BUSINESS.whatsapp}?text=${encodeURIComponent('Hi Aegis, I would like more details about your workspace.')}`
 
 export const images = { heroImg, boardroomImg, privateOfficeMediumImg }
 
@@ -84,7 +87,7 @@ export const offices = [
     lead: 'Your own permanent desk inside ADGM, with a registered ADGM business address for your licence. Only AED 150 more than a flexi desk.',
     features: ['Registered ADGM business address', 'ADGM-compliant lease, registered on AccessRP', '24/7 secure access and lockable storage', 'Meeting room access and business lounge'],
     note: 'Leases 12–36 months. One-time AED 1,200 due-diligence fee; ADGM fees separate.',
-    href: `${MAIN_SITE}/office-space`,
+    href: WA_INFO,
     cta: 'Reserve a dedicated desk',
     popular: true,
   },
@@ -99,7 +102,7 @@ export const offices = [
     lead: 'Cheap desk space in ADGM for freelancers, remote teams and SPVs — any open desk in the shared office, on a flexible monthly membership.',
     features: ['Any open desk in the shared office', 'High-speed WiFi, coffee and print/scan', 'Meeting room credits', 'No long-term commitment'],
     note: 'No deposit, no admin fees, no setup fees, free registration.',
-    href: `${MAIN_SITE}/office-space`,
+    href: WA_INFO,
     cta: 'Rent a flexi desk',
   },
   {
@@ -113,7 +116,7 @@ export const offices = [
     lead: 'A fully furnished, lockable serviced office for teams of 1–20+, suitable for FSRA-regulated firms that need a private office in ADGM.',
     features: ['Lockable, fully furnished suite', 'Reception, mail handling and cleaning', 'Registered ADGM business address', '24/7 access and meeting room'],
     note: 'Sizes for 1–20+ people. Ask for current availability.',
-    href: `${MAIN_SITE}/private-office`,
+    href: WA_INFO,
     cta: 'View private office',
   },
   {
@@ -127,7 +130,7 @@ export const offices = [
     lead: 'An ADGM registered business address with mail handling, for company registration and licence renewal without a physical desk.',
     features: ['Registered ADGM business address', 'Mail handling and forwarding', 'Company directory listing', 'Upgrade to a desk or office any time'],
     note: 'Basic, Premium and Enterprise packages.',
-    href: `${MAIN_SITE}/virtual-office`,
+    href: WA_INFO,
     cta: 'See virtual office plans',
   },
   {
@@ -140,7 +143,7 @@ export const offices = [
     lead: 'A professional meeting room in ADGM for client meetings, interviews and board meetings — open to members and non-members.',
     features: ['Book by the hour', 'Presentation screen and video calls', 'High-speed WiFi', 'Reception to greet your guests'],
     note: 'Members get meeting room credits with their plan.',
-    href: `${MAIN_SITE}/meeting-room`,
+    href: WA_INFO,
     cta: 'Book a meeting room',
   },
   {
@@ -154,7 +157,7 @@ export const offices = [
     lead: 'A desk in ADGM for the day with no lease or commitment — AED 100 for 9 AM–6 PM, or AED 150 for 24 hours.',
     features: ['Hot desk access for the day', 'WiFi, coffee and print/scan', 'All amenities included', 'No membership needed'],
     note: 'Walk in or book on WhatsApp.',
-    href: `${MAIN_SITE}/day-pass`,
+    href: WA_INFO,
     cta: 'Book a day pass',
   },
 ]
@@ -219,11 +222,10 @@ export const nearby = [
   'Easy parking and access to Abu Dhabi city',
 ]
 
+// Two genuine member reviews, word for word — a different pair on each site
 export const testimonials = [
   { quote: 'For businesses looking for a low cost office in ADGM, Aegis provides flexible office space and a professional seating. The team made the setup process very easy.', name: 'Haseeb Awan', role: 'Entrepreneur' },
-  { quote: 'We needed a professional business address in Abu Dhabi without committing to a large traditional office, and Aegis provided a practical solution. The team is responsive and professional.', name: 'Uzair Tahir', role: 'Tech Startup Founder' },
-  { quote: 'I needed the license and a space for one of my team members and they did it all within a week. My team member loved the space.', name: 'Ubaid Zia', role: 'Startup Founder' },
-  { quote: 'A convenient workspace in Abu Dhabi for startups and growing companies. The flexible options, meeting room and hot desk helped us avoid the commitment of a traditional office.', name: 'Kasim Malikkandy', role: 'Consultant' },
+  { quote: 'I was specifically looking for the cheapest coworking space in ADGM and wanted a privacy environment rather than just a desk. Aegis offered a good balance of price, location, and facilities.', name: 'Naveeda Haseeb', role: 'Startup Founder' },
 ]
 
 export const guides = [
@@ -242,17 +244,15 @@ export const faqs = [
   {
     q: 'How much does office space in ADGM cost?',
     a: 'At Aegis Coworking in Addax Tower, a flexi desk costs AED 1,000 per month, a dedicated desk AED 1,150 per month, a private office starts at AED 4,500 per month and a virtual office starts at AED 292 per month. A day pass is AED 100.',
-    link: { text: 'Estimate your monthly ADGM office cost', url: `${MAIN_SITE}/blog/adgm-office-cost-calculator` },
+    link: { text: 'ADGM office cost calculator', url: 'https://www.aegiscoworking.ae/blog/adgm-office-cost-calculator' },
   },
   {
     q: 'What is the difference between a dedicated desk and a flexi desk in ADGM?',
     a: 'A dedicated desk is your own permanent desk and includes a registered ADGM business address for your licence, for AED 1,150 per month. A flexi desk lets you use any open desk for AED 1,000 per month and suits individuals or companies without an ADGM licensing requirement.',
-    link: { text: 'Is a dedicated desk enough for a solo business?', url: `${MAIN_SITE}/blog/adgm-flexi-desk-enough-solo-business` },
   },
   {
     q: 'Can I use this office space in ADGM to register my business?',
     a: 'Yes. A dedicated desk, private office or virtual office includes a registered ADGM business address that qualifies for your ADGM licence application, and we register your lease on AccessRP.',
-    link: { text: 'What is the minimum office you need for an ADGM licence?', url: `${MAIN_SITE}/blog/low-cost-office-adgm-budget-friendly-workspace-solutions-in-abu-dhabi` },
   },
   {
     q: 'What is included in the one-time due-diligence fee?',
@@ -261,12 +261,11 @@ export const faqs = [
   {
     q: 'Is a serviced office different from renting a traditional office in ADGM?',
     a: 'Yes. A traditional ADGM office lease gives you an empty unit to fit out yourself, usually with a deposit and a multi-year term. A serviced office at Aegis is fully furnished, with utilities, cleaning, reception and WiFi included, and you can move in the same week.',
-    link: { text: 'Private office vs coworking in ADGM', url: `${MAIN_SITE}/blog/private-office-vs-coworking-adgm-the-complete-cost-privacy-guide` },
+    link: { text: 'Private office vs coworking in ADGM', url: 'https://www.aegiscoworking.ae/blog/private-office-vs-coworking-adgm-the-complete-cost-privacy-guide' },
   },
   {
     q: 'Is Addax Tower in ADGM?',
     a: 'Yes. Addax Tower is on Al Reem Island, which is part of the Abu Dhabi Global Market jurisdiction, so office space in Addax Tower is office space in ADGM.',
-    link: { text: 'Is Al Reem Island part of ADGM?', url: `${MAIN_SITE}/blog/is-al-reem-island-part-of-adgm` },
   },
   {
     q: 'What are the lease term options?',
@@ -275,5 +274,13 @@ export const faqs = [
   {
     q: 'Does the office space include 24/7 access?',
     a: 'Yes. Dedicated desk and private office members get secure building access around the clock, every day of the week.',
+  },
+  {
+    q: 'What extra costs does a traditional ADGM office lease add?',
+    a: 'With a traditional lease you usually pay for the fit-out, furniture, a security deposit and separate utility and internet contracts on top of the rent. A serviced office at Aegis includes furniture, utilities, internet, cleaning and reception in one monthly price, with no deposit.',
+  },
+  {
+    q: 'When does a traditional lease make more sense than a serviced office?',
+    a: 'A traditional lease can suit a large, established team that wants to design its own space and commit for many years. For startups and teams of 1–20+ people who want to move in quickly without a fit-out, a serviced office is usually simpler and more predictable.',
   },
 ]
