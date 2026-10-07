@@ -16,7 +16,7 @@ export function Intro() {
           </p>
           <p>
             Aegis Coworking offers flexible office space in ADGM on the 38th floor of{' '}
-            <a href={`${MAIN_SITE}/addax-tower-al-reem-island`}>Addax Tower</a>. Every desk and office comes
+            Addax Tower. Every desk and office comes
             furnished, with WiFi, reception, cleaning and utilities included, and ADGM-ready lease paperwork —
             so you can rent desk space in ADGM and start working the same week.
           </p>
@@ -100,7 +100,7 @@ export function Compare({ setActive }) {
         </Reveal>
         <p className="fine">
           A one-time AED 1,200 due-diligence fee applies to the dedicated desk; ADGM government fees are separate.
-          Current offers on <a href={`${MAIN_SITE}/pricing`}>aegiscoworking.ae/pricing</a>.{' '}
+          Ask us on WhatsApp for current offers.{' '}
           <button type="button" className="link-btn" onClick={() => setActive('dedicated-desk')}>View the dedicated desk</button>
         </p>
       </div>
@@ -119,7 +119,6 @@ export function Serviced() {
             from an office space provider in ADGM skips the fit-out, the deposit and the separate utility
             contracts.
           </p>
-          <a className="text-link" href={`${MAIN_SITE}/blog/private-office-vs-coworking-adgm-the-complete-cost-privacy-guide`}>Read the cost and privacy guide</a>
         </div>
         <Reveal className="vs">
           <div className="vs-head" aria-hidden="true"><span /><span className="vs-a">Aegis serviced office</span><span>Traditional lease</span></div>
@@ -157,10 +156,6 @@ export function Licence({ setActive }) {
             </Reveal>
           ))}
         </ul>
-        <p className="fine">
-          Hiring? See <a href={`${MAIN_SITE}/blog/adgm-coworking-visa-quota-employees-per-desk`}>how many visas each desk supports</a>{' '}
-          and <a href={`${MAIN_SITE}/blog/adgm-fsra-office-requirements`}>office rules for FSRA-regulated firms</a>.
-        </p>
       </div>
     </section>
   )
