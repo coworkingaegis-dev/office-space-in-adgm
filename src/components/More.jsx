@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Reveal } from './Motion'
 import Icon from './Icon'
-import { benefits, amenities, steps, nearby, testimonials, guides, faqs, images, BUSINESS, MAIN_SITE } from '../data/content'
+import { benefits, amenities, steps, nearby, testimonials, faqs, images, BUSINESS } from '../data/content'
 import { PhoneLink } from './Navbar'
 
 export function Why() {
@@ -62,8 +62,7 @@ export function Location() {
           <h2 id="loc-title">Office space in Addax Tower, Al Reem Island</h2>
           <p className="loc-sub">
             Addax Tower sits inside the ADGM jurisdiction on Al Reem Island — a quieter, better-value
-            alternative to the towers on ADGM Square.{' '}
-            <a href={`${MAIN_SITE}/blog/addax-tower-adgm-business-workspace`}>Addax Tower for businesses</a>
+            alternative to the towers on ADGM Square.
           </p>
           <dl className="nap">
             <div><dt>Address</dt><dd>{BUSINESS.name}, {BUSINESS.street}, {BUSINESS.city}, {BUSINESS.country}</dd></div>
@@ -116,29 +115,6 @@ export function Reviews() {
   )
 }
 
-export function Guides() {
-  return (
-    <section className="guides sec" id="guides" aria-labelledby="guides-title">
-      <div className="wrap">
-        <div className="head head-split">
-          <h2 id="guides-title">ADGM office guides</h2>
-          <p>Costs, licence rules and lease registration, from the Aegis Coworking blog. <a href={`${MAIN_SITE}/blogs`}>All articles</a></p>
-        </div>
-        <ul className="g-grid">
-          {guides.map((g) => (
-            <li key={g.slug}>
-              <a href={g.url}>
-                <span className="g-tag">{g.tag}</span>
-                <span className="g-title">{g.title}</span>
-                <span className="g-go" aria-hidden="true"><Icon name="arrow" size={16} /></span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  )
-}
 
 export function FAQ() {
   return (
