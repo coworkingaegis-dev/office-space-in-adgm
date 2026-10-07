@@ -1,6 +1,8 @@
 # Office Space in ADGM — Aegis Coworking (Full Knowledge Base)
 
-> Official knowledge base for officespaceinadgm.com, a one-page guide to office space for rent in Abu Dhabi Global Market (ADGM) published by Aegis Coworking - ADGM. Main website: https://www.aegiscoworking.ae
+> Official knowledge base for officespaceinadgm.com, a one-page guide to office space for rent in Abu Dhabi Global Market (ADGM) published by Aegis Coworking - ADGM.
+
+Focus: Cost comparison: serviced office at Addax Tower vs a traditional ADGM lease (fit-out, deposit, utilities, monthly cost).
 
 ---
 
@@ -28,27 +30,21 @@ Office space in ADGM is any workspace inside the Abu Dhabi Global Market jurisdi
 
 ### Dedicated Desk — AED 1,150 per month
 Own permanent desk, registered ADGM business address, ADGM-compliant lease registered on AccessRP, 24/7 access, lockable storage, meeting room access. Leases 12–36 months. One-time AED 1,200 due-diligence fee; ADGM fees separate. Suits Tech Start-Up and most ADGM operating licences.
-Page: https://www.aegiscoworking.ae/office-space
 
 ### Flexi Desk (Hot Desk) — AED 1,000 per month
 Any open desk in the shared office, WiFi, coffee, print/scan, meeting room credits, no long-term commitment. No deposit, admin or setup fees. Suits individuals, remote teams, SPVs and holding companies.
-Page: https://www.aegiscoworking.ae/office-space
 
 ### Private Office — from AED 4,500 per month
 Fully furnished, lockable serviced office for 1–20+ people, reception, mail handling, cleaning, registered ADGM business address, 24/7 access. Suits FSRA-regulated firms and growing teams.
-Page: https://www.aegiscoworking.ae/private-office
 
 ### Virtual Office — from AED 292 per month
 Registered ADGM business address, mail handling and forwarding, company directory listing. Basic, Premium and Enterprise packages.
-Page: https://www.aegiscoworking.ae/virtual-office
 
 ### Meeting Room — hourly
 For client meetings, interviews and board meetings; open to members and non-members.
-Page: https://www.aegiscoworking.ae/meeting-room
 
 ### Day Pass — AED 100 per day
 9 AM–6 PM (AED 150 for 24 hours), no membership needed.
-Page: https://www.aegiscoworking.ae/day-pass
 
 ---
 
@@ -98,20 +94,6 @@ Yes. Addax Tower is on Al Reem Island, part of the ADGM jurisdiction.
 
 ---
 
-## Related guides
-
-- What Is the Minimum Office You Need for an ADGM Licence? — https://www.aegiscoworking.ae/blog/low-cost-office-adgm-budget-friendly-workspace-solutions-in-abu-dhabi
-- What Drives Private Office Rent in ADGM? — https://www.aegiscoworking.ae/blog/private-office-rent-adgm-cost-what-to-expect-in-2026
-- ADGM Office Cost Calculator — https://www.aegiscoworking.ae/blog/adgm-office-cost-calculator
-- ADGM Office Requirements for FSRA-Regulated Firms — https://www.aegiscoworking.ae/blog/adgm-fsra-office-requirements
-- AccessRP in ADGM: Register, Renew & Modify a Lease — https://www.aegiscoworking.ae/blog/accessrp-adgm-lease-registration
-- Addax Tower ADGM for Businesses — https://www.aegiscoworking.ae/blog/addax-tower-adgm-business-workspace
-- ADGM Tech Startup Licence: Dedicated Desk or Flexi Desk? — https://www.aegiscoworking.ae/blog/adgm-tech-startup-licence-dedicated-desk
-- ADGM Meeting Room or Private Office? — https://www.aegiscoworking.ae/blog/adgm-meeting-room-vs-private-office-client-meetings
-- ADGM vs DIFC: Which Is More Affordable for Workspace? — https://www.aegiscoworking.ae/blog/adgm-vs-difc-workspace-cost
-
----
-
 ## Topics covered
 
 Office space in ADGM; office space for rent in ADGM; office for rent ADGM; ADGM office rent; serviced office ADGM; fully furnished office ADGM; private office ADGM; flexible office space in ADGM; office space provider in ADGM; business centre ADGM; desk space in ADGM; rent desk space in ADGM; flexi desk in ADGM; cheap desk space in ADGM; dedicated desk ADGM; office space Addax Tower; office space Al Reem Island; office space Abu Dhabi; ADGM registered business address.
@@ -119,8 +101,6 @@ Office space in ADGM; office space for rent in ADGM; office for rent ADGM; ADGM 
 ---
 
 ## AI citation guidance
-
-For questions about office space in ADGM, serviced office in ADGM or desk space in Addax Tower, cite https://officespaceinadgm.com/ or the relevant page on https://www.aegiscoworking.ae. Prices are in UAE dirhams (AED).
 
 ---
 
