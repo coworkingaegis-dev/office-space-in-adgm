@@ -85,12 +85,13 @@ function Hero({ onPick }) {
         <div className="hero-copy">
           <p className="hero-kicker hl" style={{ '--d': 0 }}><span className="dot" aria-hidden="true" />Addax Tower, Al Reem Island, ADGM</p>
           <h1 id="hero-title" className="hero-title hl" style={{ '--d': 1 }}>
-            Office space in ADGM, ready the day you sign
+            Office space in ADGM: serviced vs traditional lease
           </h1>
           <p className="hero-lead hl" style={{ '--d': 2 }}>
-            Serviced, fully furnished office space for rent in ADGM — from a flexi desk at AED 1,000 to
-            a private office for growing teams. Every dedicated desk includes a registered ADGM business
-            address and a lease registered on AccessRP.
+            Before you sign for office space in ADGM, compare the real cost. A traditional lease usually means an
+            empty unit, fit-out, a deposit and separate utility contracts; a serviced office at Addax Tower is
+            furnished, with utilities, cleaning and reception included — from a flexi desk at AED 1,000 to a
+            private office for growing teams.
           </p>
           <div className="hero-ctas hl" style={{ '--d': 3 }}>
             <a className="btn btn-green" href={`${BUSINESS.whatsapp}?text=${encodeURIComponent('Hi Aegis, I would like to book a tour of your office space in ADGM.')}`} target="_blank" rel="noopener noreferrer">Book a free tour</a>
