@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Reveal } from './Motion'
 import Icon from './Icon'
 import { benefits, amenities, steps, nearby, testimonials, guides, faqs, images, BUSINESS, MAIN_SITE } from '../data/content'
+import { PhoneLink } from './Navbar'
 
 export function Why() {
   return (
@@ -66,7 +67,7 @@ export function Location() {
           </p>
           <dl className="nap">
             <div><dt>Address</dt><dd>{BUSINESS.name}, {BUSINESS.street}, {BUSINESS.city}, {BUSINESS.country}</dd></div>
-            <div><dt>Phone</dt><dd><a href={BUSINESS.phoneTel}>{BUSINESS.phoneDisplay}</a></dd></div>
+            <div><dt>Phone</dt><dd><PhoneLink>{BUSINESS.phoneDisplay}</PhoneLink></dd></div>
             <div><dt>Email</dt><dd><a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a></dd></div>
             <div><dt>Hours</dt><dd>24/7 for members, tours Monday–Friday 9:00 AM–6:00 PM</dd></div>
           </dl>
@@ -176,7 +177,7 @@ export function FinalCTA() {
           <p>Tour the 38th floor of Addax Tower, or get a video walkthrough on WhatsApp today.</p>
           <div className="final-actions">
             <a className="btn btn-green" href={`${BUSINESS.whatsapp}?text=${encodeURIComponent('Hi Aegis, I would like to book a tour of your office space in ADGM.')}`} target="_blank" rel="noopener noreferrer">Book a tour on WhatsApp</a>
-            <a className="btn btn-line" href={BUSINESS.phoneTel}>Call {BUSINESS.phoneDisplay}</a>
+            <PhoneLink className="btn btn-line">Call {BUSINESS.phoneDisplay}</PhoneLink>
           </div>
         </Reveal>
       </div>
